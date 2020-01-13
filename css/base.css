@@ -1,0 +1,29 @@
+/* mobile first */
+@media (max-width:767px) {
+
+  body {
+    text-align: center;
+  }
+
+  header {
+    max-width: 480px;
+    margin: auto;
+  }
+}
+
+/* desktop view  */
+@media (min-width: 768px) {
+
+  body {
+    max-width: 960px;
+    text-align: center;
+  }
+
+  header {
+    width: 960px;
+    height: 100px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    line-height: 100px;
+  }
+}
