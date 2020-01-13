@@ -1,7 +1,7 @@
 /* mobile first */
 @media (max-width:767px) {
   
-  body {
+  header, article, div, footer {
     background-color: lightslategray;
   }
 }
@@ -9,7 +9,7 @@
 /* desktop view  */
 @media (min-width: 768px) {
 
-  body {
+  header, article, div, footer {
     background-color: darkseagreen;
   }
 }
